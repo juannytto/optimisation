@@ -1,5 +1,6 @@
 # optimisation
 
+Ex1 :
 
 ```mermaid
 graph TD
@@ -22,8 +23,9 @@ graph TD
     P7 -->|x3 ≤ 0| P9
     P7 -->|x4 ≥ 1| P10
     
-    style P1 fill:#d4f0c4
-    style P9 fill:#d4f0c4
-    style P8 fill:#f9d2d2
-    style P10 fill:#f9d2d2
+    style P1 fill:#d4f0c4, color:black
+    style P9 fill:#d4f0c4, color:black
+    style P8 fill:#f9d2d2, color:black
+    style P10 fill:#f9d2d2, color:black
 ```
+Donc valeur optimale de Z=28 avec x1=1, x2=1, x3=0, x4=0
